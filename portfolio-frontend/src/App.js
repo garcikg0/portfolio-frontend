@@ -12,13 +12,14 @@ const App = () => {
         <LandingJumbotron />
         <div class="first-flex">
           <div class="developer-name">
-            <h1>Name</h1>
-            <p>Quick Headline with languages  </p>
+            <h1>About Me</h1>
+            <p>Elevator pitch with picture somewhere - maybe on the left of the page to compliment the image above</p>
+            <p>Button to About page</p>
           </div>
-        <a href="mailto:myemail">Let's Chat</a>
         </div>
         <div class="first-flex">
-          <h2>My Work</h2>
+          <h2>Projects - need to showcase better</h2>
+          {/* Maybe have it as a grid, they hover over a picture to get the name and a quick synopsis and click to the project page */}
           <div class="card">
             <h6>Title</h6>
             <p>Subtitle</p>
@@ -32,7 +33,14 @@ const App = () => {
             <p>Subtitle</p>
           </div>
         </div>
+        <div class = "developer-name">
+          <h1>Resume Timeline</h1>
+          <p>
+            Goes in "About Me" page
+          </p>
+        </div>
         <TimelineSample />
+        <a href="mailto:myemail">Let's Chat</a>
       </Route>
     </Switch>
     </>

@@ -16,17 +16,26 @@ const LandingJumbotron = () => {
                             Cupiditate alias odio omnis minima veritatis saepe porro, repellendus natus vitae, sequi exercitationem ipsam, qui possimus sit eveniet laborum sapiente quisquam quae neque velit? 
                         </p>
                         <p>
-                            Add social icons - linkedIn, Github, Blog, Twitter instead of see more button
+                            Need to add a Navbar at top. Tabs could be Home, About, Projects, Contact
                         </p>
                     </div>
                     <div class="btns">
-                        <button class='btns_more'> See more </button>
+                        <button class='btns_more'> Social icon to LinkedIn </button>
+                    </div>
+                    <div class="btns">
+                        <button class='btns_more'> Social icon to LinkedIn, Github </button>
+                    </div>
+                    <div class="btns">
+                        <button class='btns_more'> Social icon to Blog </button>
+                    </div>
+                    <div class="btns">
+                        <button class='btns_more'> Social icon to Twitter </button>
                     </div>
                 </div>
             </div>
             <div class="container_outer_img">
                 <div class="img-inner">
-                    <img src='https://images.unsplash.com/photo-1517911041065-4960862d38f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80'  alt="" class="container_img"/>
+                    <img src='https://www.stockvault.net/data/2015/08/28/177182/preview16.jpg'  alt="" class="container_img"/>
                 </div>
             </div>
         </div>

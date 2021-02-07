@@ -6,6 +6,8 @@ const TimelineSample = () => {
 
     return(
         <>
+        <h1>Section for In Progress skills and courses</h1>
+        <h1>Profession Experience</h1>
         <Timeline lineColor={'#ddd'}>
             <TimelineItem
             key="001"
