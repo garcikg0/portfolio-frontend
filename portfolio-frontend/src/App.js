@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
 import './App.css';
 import LandingJumbotron from './components/landing-jumbotron/LandingJumbotron';
+import TimelineSample from './components/timeline/TimelineSample'
 
 const App = () => {
   return (
@@ -13,13 +14,6 @@ const App = () => {
           <div class="developer-name">
             <h1>Name</h1>
             <p>Quick Headline with languages  </p>
-            {/* <div class="icons">
-              <i class="fa fa-2x fa-github"></i>
-              <i class="fa fa-2x fa-medium"></i>
-              <i class="fa fa-2x fa-envelope-square"></i>
-              <i class="fa fa-2x fa-twitter"></i>
-              <i class="fa fa-2x fa-instagram"></i>
-            </div> */}
           </div>
         <a href="mailto:myemail">Let's Chat</a>
         </div>
@@ -38,6 +32,7 @@ const App = () => {
             <p>Subtitle</p>
           </div>
         </div>
+        <TimelineSample />
       </Route>
     </Switch>
     </>

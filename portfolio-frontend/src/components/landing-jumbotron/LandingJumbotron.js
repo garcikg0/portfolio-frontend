@@ -1,5 +1,5 @@
 import React from 'react';
-import './Styles.scss'
+import './Styles.scss';
 
 const LandingJumbotron = () => {
 
@@ -12,7 +12,12 @@ const LandingJumbotron = () => {
                         <h1>Hello World</h1>
                     </div>
                     <div class="par">
-                        <p> Cupiditate alias odio omnis minima veritatis saepe porro, repellendus natus vitae, sequi exercitationem ipsam, qui possimus sit eveniet laborum sapiente quisquam quae neque velit? </p>
+                        <p> 
+                            Cupiditate alias odio omnis minima veritatis saepe porro, repellendus natus vitae, sequi exercitationem ipsam, qui possimus sit eveniet laborum sapiente quisquam quae neque velit? 
+                        </p>
+                        <p>
+                            Add social icons - linkedIn, Github, Blog, Twitter instead of see more button
+                        </p>
                     </div>
                     <div class="btns">
                         <button class='btns_more'> See more </button>
