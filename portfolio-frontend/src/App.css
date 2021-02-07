@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p, body {
+  font-family: 'Raleway', sans-serif;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.first-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  height: 100%;
+  align-items: center;
+  padding: 0.5%;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .developer-name {
+  
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+} */
+
+/* .icons i {
+  padding-right: 1%;
+} */
+
+.card {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  .first-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+  /* .icons {
+    justify-content: center;
+  } */
 }
