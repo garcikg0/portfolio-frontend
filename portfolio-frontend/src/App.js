@@ -1,12 +1,14 @@
 import React from 'react';
 import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
 import './App.css';
+import LandingJumbotron from './components/landing-jumbotron/LandingJumbotron';
 
-function App() {
+const App = () => {
   return (
     <>
     <Switch>
       <Route path='/' >
+        <LandingJumbotron />
         <div class="first-flex">
           <div class="developer-name">
             <h1>Name</h1>
